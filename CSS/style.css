@@ -1,12 +1,12 @@
-/* /===================  @Font-face  start  ============================\*/
+/* ****FONT-FACE START**** */
 @font-face {
   src: url("./FONT/Roboto");
   font-family: 'Roboto', sans-serif;
 }
 
-/* /===================  @Font-face  end  ============================\*/
+/* ****FONT-FACE START**** */
 
-/* /===================  Basic font codes end   =========================\ */
+/* ****BASIC TO THE CODES START**** */
 *,
 *::before,
 *::after {
@@ -25,9 +25,9 @@
   padding: 0 20px;
 }
 
-/* /===================  Basic font codes end   =========================\ */
+/* ****BASIC TO THE CODES END**** */
 
-/* /=================== CSS Root Font-color start ============================\ */
+/* ****CSS ROOT FONT-COLOR START**** */
 :root {
   --bg-color: #FAC960;
   --btn-color: #A8863D;
@@ -41,9 +41,9 @@
   --footer-bgcolor: #F2F2F2;
 }
 
-/* /=================== CSS Root Font-color end ============================\ */
+/* ****CSS ROOT FONT-COLOR END**** */
 
-/* /=================== Header start  =====================================\ */
+/* ****HEADER START**** */
 .header {
   position: sticky;
   top: 0;
@@ -55,6 +55,7 @@
   height: 78px;
   width: 100%;
 }
+
 .nav {
   margin: 0 auto;
   height: 39px;
@@ -90,9 +91,15 @@
   color: var(--bg-color);
 }
 
-/* /=================== Header end  =====================================\ */
+.nav__logo_link {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
 
-/* /=================== Main section  start  =====================================\ */
+/* ****HEADER END**** */
+
+/* ****MAIN START**** */
 .main {
   background-color: var(--bg-color);
   width: 100%;
@@ -161,9 +168,9 @@
   cursor: pointer;
 }
 
-/* /=================== Main section  end  =====================================\ */
+/* ****MAIN END**** */
 
-/* /========================   Section start   =====================================\ */
+/* ****SECTION START**** */
 .section {
   background-color: var(--section-bgColor);
   width: 100%;
@@ -287,10 +294,10 @@
   line-height: 22px;
 }
 
-/* /========================   Section end   =====================================\ */
+/* ****SECTION END**** */
 
 
-/* /========================   footer  start   =====================================\ */
+/* ****FOOTER START**** */
 .footer {
   height: 240px;
   width: 100%;
@@ -314,9 +321,9 @@
   color: var(--bg-color);
 }
 
-/* /========================   footer  end   =====================================\ */
+/* ****FOOTER END**** */
 
-/* /========================   Responsive Start   =====================================\ */
+/* ****RESPONSIVE START**** */
 @media only screen and (max-width: 820px) and (min-width: 760px) {
   .section__content img {
     width: 190px;
@@ -755,4 +762,4 @@
   }
 }
 
-/* /========================   Responsive End   =====================================\ */
+/* ****RESPONSIVE END**** */
